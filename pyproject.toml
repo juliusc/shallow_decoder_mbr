@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "shallow_decoder_mbr"
+version = "0.1.0"
+description = ""
+authors = ["Julius Cheng"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "4.35.2"
+datasets = "^2.19.1"
+sacremoses = "^0.1.1"
+h5py = "^3.11.0"
+numpy = "^1.26.4"
+unbabel-comet = "^2.2.2"
+torch = "^2.3.0"
+mtdata = "^0.4.0"
+scikit-learn = "^1.5.1"
+plotnine = "^0.13.6"
+accelerate = "^0.34.2"
+evaluate = "^0.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
